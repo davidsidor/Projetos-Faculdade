@@ -1,0 +1,361 @@
+/* Corpo da página */
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+/* cabeçalho */
+
+nav{
+   display: flex;
+   justify-content: left;
+   align-items: center;
+   background-color: #363636;
+   height: 70px;
+   font-family: open sans;
+   font-weight: bold;
+   text-shadow: 2px 2px black;
+}
+
+nav img{
+    height: 60px;
+    width: 60px;
+    margin: 10px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    padding-right: 18px;
+}
+
+a:hover{
+    opacity: 0.7;
+}
+
+.cab{
+    list-style: none;
+    display: flex;
+}
+
+.cab li{
+    letter-spacing: 3px;
+    margin-left: 15px;
+}
+
+/* section da pagina inicial */
+
+.paginaInicial {
+	clear: both;
+	min-height: 640px;
+	width: 100%;
+	margin-top: 0px;
+    background: url("https://wallpaperaccess.com/full/7841566.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -100px;
+}
+
+#tituloPrincipal{
+    font-size: 33px;
+    padding-top: 45px;
+    margin-left: 330px;
+    font-family: 'Kanit', sans-serif;
+    color: white;
+    text-shadow: 4px 4px black;
+}
+
+#subtitulo{
+    color: white;
+    font-size: 23px;
+    padding-top: 405px;
+    margin-right: 410px;
+    font-family: open sans;
+    font-weight: bold;
+    margin-left: 10px;
+    text-shadow: 3px 3px black;
+}
+
+.subtituloPrincipal{
+    color: white;
+    font-size: 20px;
+    margin-left: 30px;
+    text-shadow: 2px 2px black;
+}
+
+.saibaMais{
+    float: left;
+    margin-left: 10px;
+    display:block;
+    color: black;
+    background-color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 30px;
+    margin-top: 5px;
+    font-family: open sans;
+    border-radius: 5px;
+}
+
+/* Página Modelos */
+
+.paginaModelos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    background: url("https://wallpaper.dog/large/20338264.jpg");
+    background-size: cover;
+}
+
+#tituloModelos{
+    font-size: 30px;
+    padding: 20px;
+    padding-right: 470px;
+    color: rgb(242, 242, 242);
+    margin-left: 400px;
+    text-shadow: 4px 4px black;
+    font-family: 'Kanit', sans-serif;
+}
+
+.card{
+    background-color: white;
+    height: 535px;
+    width: 430px;
+    margin: 25px;
+    border-radius: 15px;
+}
+
+.card-img{
+    display: block;
+    height: 220px;
+    width: 100%;
+    padding-bottom: 19px;
+    background-size: cover;
+    border-radius: 15px 15px 0px 0px;
+    background-image: url("https://cdn.bmwblog.com/wp-content/uploads/2021/12/BMW-M5-CS-G-Power-tuning-5-scaled.jpg")
+}
+
+.card-img2{
+    display: block;
+    height: 220px;
+    width: 100%;
+    padding-bottom: 17px;
+    background-size: cover;
+    border-radius: 15px 15px 0px 0px;
+    background-image: url("https://cdn.bmwblog.com/wp-content/uploads/2019/10/BMW-M8-Gran-Coupe-exterior-images-21.jpg")
+}
+
+.card-img3{
+    display: block;
+    height: 220px;
+    width: 100%;
+    padding-bottom: 17px;
+    background-size: cover;
+    border-radius: 15px 15px 0px 0px;
+    background-image: url("https://en.free-wallpapers.su/data/media/9509/big/car30994.jpg")
+}
+
+.titulo{
+    padding: 240px 10px;
+    color: black;
+    font-family: 'Kanit', sans-serif;
+   }
+
+.texto{
+    margin: -235px 10px 0px 10px;
+    color:black;
+    text-align: justify;
+    font-size: 14px; 
+    font-weight: bold;
+    font-family: open sans;
+}
+
+.tabela{
+    margin: 10px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+.titulo-tabela{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    padding: 3px;
+    border: transparent;
+    font-family: 'Kanit', sans-serif;
+}
+
+.tabelaCard6{
+    padding-top: 38px;
+    text-align: center;
+    margin: 10px;
+    color: black;
+}
+
+tr, td, th{
+	border: 2px solid black;
+	padding: 1px;
+}
+
+tr, td{
+	font-size: 15px;
+}
+
+/* Página de inscrição */
+
+.paginaInscricao{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    background: url("https://images5.alphacoders.com/110/1103989.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -54px;
+}
+
+.topoInscricao{
+    background-color: #363636;
+    border-radius: 10px;
+    width: 365px;
+    margin: 0px auto;
+    list-style: 1px;
+    margin-top: 60px;
+    color: #ffffff;
+    height: 490px;
+    margin-bottom: 16%;
+    text-shadow: 2px 2px black;
+    font-family: 'Kanit', sans-serif;
+}
+
+.ajusteSexo {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    justify-content: center;
+}
+
+.formInput.sexo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+.inputsexo {
+    margin-left: 1%;
+    width: 42%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formInput {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+}
+
+.check{
+    width: 100%;
+}
+
+.check label {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 3%;
+}
+
+.opcao{
+    margin-left: 2%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    line-height: 0.7rem;
+}
+
+.ajusteCheck{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 3%;
+}
+
+.btn_Geral {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.topoInscricao button{
+    width: 110px;
+    height: 30px;
+    margin: 10px;
+    margin-bottom: 150px;
+    background-color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+.topoInscricao h1{
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.topoInscricao h2{
+    font-size: 21px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.inputFrm {
+    width: 79%;
+    margin-top: 3%;
+    font-size: 0.7rem;
+    border-radius: 5px;
+    border: none;
+    padding: 3%;
+}
+
+.inscricao input{
+    margin: 12px auto;
+	width: 90%;
+	padding: 7px 0px;
+}
+
+.check label {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 3%;
+}
+
+/* Rodapé */
+
+footer{
+    background-color: #363636;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    text-shadow: 1px 1px black;
+}

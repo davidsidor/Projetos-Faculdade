@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site fã clube">
+    <meta name="keywords" content="bmw, m3, m5, m8">
+    <meta name="author" content="David Sidor">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../js/site.js">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <script src="../js/site.js"></script>
+    <title>Projeto fã clube</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="../img/bmw-logo.png" alt="BMW logo">
+            <ul class="cab">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../pages/modelos.html">Modelos</a></li>
+                <li><a href="../pages/inscricao.html">Inscrição</a></li>
+            </ul>
+        </nav>
+        </header>
+    <section class="paginaInscricao">
+        <div class="topoInscricao">
+            <form name="formulario" method="post" action="#" onsubmit="return validaInscricao()">
+                    <h1>Participe do fã clube.</h1>
+                    <h2>Receba todas as novidades!</h2>
+                    <div class="formInput">
+                        <input placeholder="Nome Sobrenome" type="text" name = "txtnome" id="nome" class="inputFrm">
+                    </div>
+                    <div class="formInput">
+                        <input placeholder="(DDD)00000-0000" type="text" name="txtfone" id="fone" class="inputFrm">
+                    </div>
+                    <div class="formInput">
+                        <input placeholder="00/00/0000" type="text" name="txtdata" id="data" class="inputFrm"> 
+                    </div>
+                    <div class="formInput sexo">
+                        <label for="sexo">Sexo</label>
+                        <div class="ajusteSexo">
+                            <div class="inputsexo">
+                                <input type="radio" name="sexo" value="masculino"> Masculino
+                            </div>
+                            <div class="inputsexo">
+                                <input type="radio" name="sexo" value="feminino"> Feminino 
+                            </div> 
+                        </div>
+                    </div>
+                        <div class="formInput">
+                        <input placeholder="E-mail" type="email" name="txtemail" id="email" class="inputFrm">
+                    </div>   
+                    <div class="check">
+                        <label for="check">Deseja participar do fã clube?</label>
+                        <div class="ajusteCheck">
+                            <input type="checkbox" name="check" value="sim"> <span class="opcao">Sim</span> 
+                        </div>
+                    </div>
+                    <div class="btn_Geral">
+                        <button type="reset">Limpar</button>
+                        <button type="submit">Inscrever-se</button>      
+                    </div>
+            </form>
+        </div>
+    </section>
+    <footer>Copyright &copy; David Sidor 2022</footer>
+</body>
+</html>
